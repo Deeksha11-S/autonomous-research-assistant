@@ -4,11 +4,11 @@ uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 sse-starlette==1.6.5
 
-# AI/ML - MUST USE THESE EXACT VERSIONS
+# AI/ML - USE THESE EXACT VERSIONS
 langchain==0.0.340
-langgraph==0.0.26  # Older but compatible
-langchain-core==0.1.20  # Pinned to older version
-langsmith==0.0.95  # Pinned to <0.1.0
+langchain-core==0.1.20
+langsmith==0.0.92  # CHANGED: This version exists and is <0.1.0
+langgraph==0.0.26
 
 groq==0.3.0
 openai==0.28.0
@@ -22,9 +22,6 @@ plotly==5.18.0
 beautifulsoup4==4.12.2
 requests==2.31.0
 playwright==1.40.0
-
-# Database - Comment out if not needed
-# chromadb==0.4.15  # Heavy, remove for now
 
 # Utilities
 pydantic==2.5.0
