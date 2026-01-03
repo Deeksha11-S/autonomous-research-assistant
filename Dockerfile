@@ -23,7 +23,7 @@ RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Install Playwright with minimal browser
-RUN playwright install chromium --channel=chrome-stable --with-deps chromium
+RUN python -m playwright install chromium
 
 # Copy app
 COPY . .
