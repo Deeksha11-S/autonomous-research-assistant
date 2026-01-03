@@ -1,51 +1,29 @@
-# Optimize for Railway: Use multi-stage build
-FROM python:3.11-slim as builder
-
-WORKDIR /app
-
-COPY requirements.txt .
-RUN pip install --user --no-cache-dir -r requirements.txt
-
-# Final stage
 FROM python:3.11-slim
 
-# Install only essential dependencies for Playwright
+# Install system dependencies
 RUN apt-get update && apt-get install -y \
     wget \
-    libnss3 \
-    libx11-xcb1 \
-    libxcomposite1 \
-    libxcursor1 \
-    libxdamage1 \
-    libxfixes3 \
-    libxi6 \
-    libxtst6 \
-    libglib2.0-0 \
-    libgtk-3-0 \
-    libpango-1.0-0 \
-    libcairo2 \
-    libgdk-pixbuf2.0-0 \
-    libatk1.0-0 \
-    libatk-bridge2.0-0 \
-    libxrandr2 \
-    libxss1 \
-    libasound2 \
+    gnupg2 \
+    unzip \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Add Google Chrome repo (new method)
+RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub > /etc/apt/trusted.gpg.d/google.asc
+RUN echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list
+RUN apt-get update && apt-get install -y google-chrome-stable \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
-# Copy Python dependencies from builder
-COPY --from=builder /root/.local /root/.local
-ENV PATH=/root/.local/bin:$PATH
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
-COPY . .
-
-# Install Playwright browsers
+# Install Playwright
 RUN playwright install chromium
 
-# Expose port
-EXPOSE ${PORT:-8000}
+COPY . .
 
-# Start command
-CMD ["python", "app.py"]
+EXPOSE 8000
+
+CMD ["python", "app.py"] 
