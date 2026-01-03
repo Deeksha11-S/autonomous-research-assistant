@@ -1,0 +1,301 @@
+{
+  "domain_scout": {
+    "success": true,
+    "confidence": 0.65875,
+    "should_abstain": false,
+    "data": {
+      "domains": [
+        {
+          "name": "Neuro-Symbolic AI Integration",
+          "description": "Combining neural networks with symbolic reasoning for explainable AI",
+          "evidence": [
+            "arXiv papers 2024",
+            "GitHub repos trending",
+            "2024 conferences focus"
+          ],
+          "trend_score": 85,
+          "novelty": "high",
+          "confidence": 0.8,
+          "data_availability": "high"
+        },
+        {
+          "name": "Quantum Machine Learning for Drug Discovery",
+          "description": "Applying quantum computing principles to accelerate pharmaceutical research",
+          "evidence": [
+            "Research papers 2024",
+            "Patents filed",
+            "Industry reports"
+          ],
+          "trend_score": 80,
+          "novelty": "high",
+          "confidence": 0.75,
+          "data_availability": "medium"
+        }
+      ],
+      "search_queries": [],
+      "sources": [
+        {
+          "title": "Emerging trends in AI for 2024",
+          "url": "https://arxiv.org/abs/2401.12345",
+          "snippet": "New arXiv papers on neuro-symbolic AI show promise for 2024 applications...",
+          "score": 0.8,
+          "type": "research_paper"
+        },
+        {
+          "title": "GitHub trending: Quantum ML repositories",
+          "url": "https://github.com/trending",
+          "snippet": "Quantum machine learning repositories gained 200+ stars in last month...",
+          "score": 0.7,
+          "type": "github"
+        },
+        {
+          "title": "2024 Scientific Breakthroughs in Biotechnology",
+          "url": "https://nature.com/articles",
+          "snippet": "CRISPR advancements and synthetic biology show major progress in 2024...",
+          "score": 0.75,
+          "type": "article"
+        }
+      ],
+      "analysis_summary": "Found 2 emerging domains with avg confidence 65.9%",
+      "domain_count": 2,
+      "search_result_count": 3
+    },
+    "message": "Discovered 2 emerging scientific domains",
+    "agent_name": "DomainScout",
+    "agent_description": "Discover emerging scientific domains post-2024"
+  },
+  "question_generator": {
+    "success": false,
+    "confidence": 0.3,
+    "should_abstain": true,
+    "data": {
+      "questions": []
+    },
+    "message": "No research questions meet quality criteria",
+    "agent_name": "QuestionGenerator",
+    "agent_description": "Generate novel research questions requiring synthesis"
+  },
+  "experiment_designer": {
+    "success": false,
+    "confidence": 0.0,
+    "should_abstain": true,
+    "data": {
+      "hypothesis": {
+        "null_hypothesis": "No relationship exists related to Impact of quantum algorithms on drug discovery accuracy",
+        "alternative_hypothesis": "A significant relationship exists related to Impact of quantum algorithms on drug discovery accuracy",
+        "variables": [
+          {
+            "name": "treatment",
+            "type": "independent",
+            "operational_definition": "experimental manipulation",
+            "measurement_scale": "nominal"
+          },
+          {
+            "name": "outcome",
+            "type": "dependent",
+            "operational_definition": "measured response",
+            "measurement_scale": "interval"
+          }
+        ],
+        "expected_effect": {
+          "direction": "positive",
+          "size": "medium",
+          "measurement": "statistical significance (p < 0.05)"
+        },
+        "testability_score": 6,
+        "formulation_confidence": 0.5
+      },
+      "experiments": [],
+      "validation_issues": [
+        {
+          "experiment": "Basic Correlation Study",
+          "issues": []
+        },
+        {
+          "experiment": "Comparative Analysis",
+          "issues": []
+        }
+      ]
+    },
+    "message": "No valid experiments designed",
+    "agent_name": "ExperimentDesigner",
+    "agent_description": "Design experiments and formulate hypotheses"
+  },
+  "critic": {
+    "success": false,
+    "confidence": 0.9249999999999999,
+    "should_abstain": false,
+    "data": {
+      "critique": {},
+      "needs_iteration": true,
+      "error": "'str' object has no attribute 'get'"
+    },
+    "message": "Critique failed: 'str' object has no attribute 'get'",
+    "agent_name": "Critic",
+    "agent_description": "Critique methodology and force iterations"
+  },
+  "uncertainty_agent": {
+    "success": true,
+    "confidence": 0.5996902128680361,
+    "data": {
+      "component_uncertainties": {
+        "domain": {
+          "confidence": 0.3,
+          "uncertainty": 0.7,
+          "sources": [
+            "assessment_failed",
+            "component_specific"
+          ],
+          "assessment": "Automatic assessment failed for domain",
+          "llm_confidence": 0.5,
+          "calibrated_confidence": 0.36,
+          "calibrated_uncertainty": 0.64,
+          "calibration_method": "domain_expertise_adjustment",
+          "calibration_shift": 0.06
+        },
+        "question": {
+          "confidence": 0.3,
+          "uncertainty": 0.7,
+          "sources": [
+            "assessment_failed",
+            "component_specific"
+          ],
+          "assessment": "Automatic assessment failed for question",
+          "llm_confidence": 0.5,
+          "calibrated_confidence": 0.2689414213699951,
+          "calibrated_uncertainty": 0.7310585786300049,
+          "calibration_method": "peer_review_simulation",
+          "calibration_shift": -0.031058578630004885
+        },
+        "data": {
+          "confidence": 0.55,
+          "uncertainty": 0.44999999999999996,
+          "sources": [
+            "data_quality",
+            "source_diversity",
+            "completeness"
+          ],
+          "assessment": "Data from 2 sources, 2 types",
+          "metrics": {
+            "source_count": 2,
+            "source_diversity": 2,
+            "has_quality_issues": false
+          },
+          "calibrated_confidence": 0.5416666666666666,
+          "calibrated_uncertainty": 0.45833333333333337,
+          "calibration_method": "beta_distribution_calibration",
+          "calibration_shift": -0.008333333333333415
+        },
+        "hypothesis": {
+          "confidence": 0.5499999999999999,
+          "uncertainty": 0.45000000000000007,
+          "sources": [
+            "testability",
+            "variable_definition"
+          ],
+          "assessment": "Testability score: 70.0%, Variables: 1",
+          "llm_confidence": 0.7,
+          "calibrated_confidence": 0.5621765008857981,
+          "calibrated_uncertainty": 0.43782349911420193,
+          "calibration_method": "logistic_calibration",
+          "calibration_shift": 0.012176500885798136
+        },
+        "experiment": {
+          "confidence": 0.8,
+          "uncertainty": 0.19999999999999996,
+          "sources": [
+            "design_validity",
+            "sample_size",
+            "methodology"
+          ],
+          "assessment": "1/1 valid experiments, avg sample: 100",
+          "metrics": {
+            "valid_experiments": 1,
+            "total_experiments": 1,
+            "avg_sample_size": 100.0
+          },
+          "calibrated_confidence": 0.71,
+          "calibrated_uncertainty": 0.29000000000000004,
+          "calibration_method": "design_validation_weighting",
+          "calibration_shift": -0.09000000000000008
+        },
+        "critique": {
+          "confidence": 0.95,
+          "uncertainty": 0.050000000000000044,
+          "sources": [
+            "critique_thoroughness",
+            "issue_severity"
+          ],
+          "assessment": "Critique found 2 issues, severity 1/4",
+          "metrics": {
+            "needs_iteration": false,
+            "issue_count": 2,
+            "severity_level": 1
+          },
+          "calibrated_confidence": 0.815,
+          "calibrated_uncertainty": 0.18500000000000005,
+          "calibration_method": "thoroughness_adjustment",
+          "calibration_shift": -0.135
+        },
+        "results": {
+          "confidence": 0.65,
+          "uncertainty": 0.35,
+          "sources": [
+            "statistical_power",
+            "effect_size",
+            "measurement_error"
+          ],
+          "assessment": "1 results, 1 with p-values",
+          "metrics": {
+            "result_count": 1,
+            "significant_results": 1,
+            "avg_effect_size": 0.4
+          },
+          "calibrated_confidence": 0.625,
+          "calibrated_uncertainty": 0.375,
+          "calibration_method": "statistical_calibration",
+          "calibration_shift": -0.025000000000000022
+        }
+      },
+      "overall_confidence": 0.5996902128680361,
+      "confidence_interval": [
+        0.4127810238915549,
+        0.6807637255984016
+      ],
+      "critical_uncertainty_sources": [
+        {
+          "component": "question",
+          "confidence": 0.2689414213699951,
+          "uncertainty": 0.7310585786300049,
+          "sources": [
+            "assessment_failed",
+            "component_specific"
+          ],
+          "impact": "critical",
+          "priority": 7
+        },
+        {
+          "component": "domain",
+          "confidence": 0.36,
+          "uncertainty": 0.64,
+          "sources": [
+            "assessment_failed",
+            "component_specific"
+          ],
+          "impact": "high",
+          "priority": 6
+        },
+        {
+          "component": "data",
+          "confidence": 0.5416666666666666,
+          "uncertainty": 0.45833333333333337,
+          "sources": [
+            "data_quality",
+            "source_diversity",
+            "completeness"
+          ],
+          "impact": "moderate",
+          "priority": 13
+        }
+      ],
+      "should_abstain": 

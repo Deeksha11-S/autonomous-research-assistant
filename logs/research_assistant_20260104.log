@@ -1,0 +1,132 @@
+2026-01-04 00:27:56 - agents.domain_scout - INFO - DomainScout starting domain discovery...
+2026-01-04 00:27:56 - agents.domain_scout - INFO - LLM generated 0 search queries
+2026-01-04 00:27:56 - agents.domain_scout - WARNING - No search results found, using mock data
+2026-01-04 00:27:56 - agents.domain_scout - INFO - LLM analysis found 3 domains
+2026-01-04 00:27:56 - agents.domain_scout - INFO - Agent confidence calculated: 0.66
+2026-01-04 00:27:56 - agents.domain_scout - INFO - Successfully discovered 2 emerging domains
+2026-01-04 00:27:56 - agents.domain_scout - INFO -   1. Neuro-Symbolic AI Integration (80.0%)
+2026-01-04 00:27:56 - agents.domain_scout - INFO -   2. Quantum Machine Learning for Drug Discovery (75.0%)
+2026-01-04 00:27:56 - agents.domain_scout - INFO - DomainScout starting domain discovery...
+2026-01-04 00:27:57 - agents.domain_scout - INFO - LLM generated 0 search queries
+2026-01-04 00:27:57 - agents.domain_scout - WARNING - No search results found, using mock data
+2026-01-04 00:27:57 - agents.domain_scout - INFO - LLM analysis found 3 domains
+2026-01-04 00:27:57 - agents.domain_scout - INFO - Agent confidence calculated: 0.66
+2026-01-04 00:27:57 - agents.domain_scout - INFO - Successfully discovered 2 emerging domains
+2026-01-04 00:27:57 - agents.domain_scout - INFO -   1. Neuro-Symbolic AI Integration (80.0%)
+2026-01-04 00:27:57 - agents.domain_scout - INFO -   2. Quantum Machine Learning for Drug Discovery (75.0%)
+2026-01-04 00:28:10 - agents.domain_scout - INFO - DomainScout starting domain discovery...
+2026-01-04 00:28:10 - agents.domain_scout - INFO - LLM generated 0 search queries
+2026-01-04 00:28:10 - agents.domain_scout - WARNING - No search results found, using mock data
+2026-01-04 00:28:11 - agents.domain_scout - INFO - LLM analysis found 3 domains
+2026-01-04 00:28:11 - agents.domain_scout - INFO - Agent confidence calculated: 0.66
+2026-01-04 00:28:11 - agents.domain_scout - INFO - Successfully discovered 2 emerging domains
+2026-01-04 00:28:11 - agents.domain_scout - INFO -   1. Neuro-Symbolic AI Integration (80.0%)
+2026-01-04 00:28:11 - agents.domain_scout - INFO -   2. Quantum Machine Learning for Drug Discovery (75.0%)
+2026-01-04 00:29:57 - agents.domain_scout - INFO - DomainScout starting domain discovery...
+2026-01-04 00:29:57 - agents.domain_scout - INFO - LLM generated 0 search queries
+2026-01-04 00:29:57 - agents.domain_scout - WARNING - No search results found, using mock data
+2026-01-04 00:29:58 - agents.domain_scout - INFO - LLM analysis found 3 domains
+2026-01-04 00:29:58 - agents.domain_scout - INFO - Agent confidence calculated: 0.66
+2026-01-04 00:29:58 - agents.domain_scout - INFO - Successfully discovered 2 emerging domains
+2026-01-04 00:29:58 - agents.domain_scout - INFO -   1. Neuro-Symbolic AI Integration (80.0%)
+2026-01-04 00:29:58 - agents.domain_scout - INFO -   2. Quantum Machine Learning for Drug Discovery (75.0%)
+2026-01-04 00:29:58 - agents.domain_scout - INFO - DomainScout starting domain discovery...
+2026-01-04 00:29:58 - agents.domain_scout - INFO - LLM generated 0 search queries
+2026-01-04 00:29:58 - agents.domain_scout - WARNING - No search results found, using mock data
+2026-01-04 00:29:58 - agents.domain_scout - INFO - LLM analysis found 3 domains
+2026-01-04 00:29:58 - agents.domain_scout - INFO - Agent confidence calculated: 0.66
+2026-01-04 00:29:58 - agents.domain_scout - INFO - Successfully discovered 2 emerging domains
+2026-01-04 00:29:58 - agents.domain_scout - INFO -   1. Neuro-Symbolic AI Integration (80.0%)
+2026-01-04 00:29:58 - agents.domain_scout - INFO -   2. Quantum Machine Learning for Drug Discovery (75.0%)
+2026-01-04 00:30:10 - agents.domain_scout - INFO - DomainScout starting domain discovery...
+2026-01-04 00:30:11 - agents.domain_scout - INFO - LLM generated 0 search queries
+2026-01-04 00:30:11 - agents.domain_scout - WARNING - No search results found, using mock data
+2026-01-04 00:30:11 - agents.domain_scout - INFO - LLM analysis found 3 domains
+2026-01-04 00:30:11 - agents.domain_scout - INFO - Agent confidence calculated: 0.66
+2026-01-04 00:30:11 - agents.domain_scout - INFO - Successfully discovered 2 emerging domains
+2026-01-04 00:30:11 - agents.domain_scout - INFO -   1. Neuro-Symbolic AI Integration (80.0%)
+2026-01-04 00:30:11 - agents.domain_scout - INFO -   2. Quantum Machine Learning for Drug Discovery (75.0%)
+2026-01-04 01:21:35 - agents.domain_scout - INFO - DomainScout starting domain discovery...
+2026-01-04 01:21:37 - agents.domain_scout - ERROR - Failed to parse LLM response: Expecting value: line 1 column 1 (char 0)
+2026-01-04 01:21:38 - agents.domain_scout - INFO - Found 1 results for query: new arXiv categories 2024
+2026-01-04 01:21:39 - agents.domain_scout - INFO - Found 1 results for query: rising GitHub repos scientific 2024
+2026-01-04 01:21:40 - agents.domain_scout - INFO - Found 1 results for query: patent trends 2024 emerging technology
+2026-01-04 01:21:42 - agents.domain_scout - ERROR - Failed to parse analysis response: Expecting value: line 1 column 1 (char 0)
+2026-01-04 01:21:42 - agents.domain_scout - INFO - Creating fallback domains for testing
+2026-01-04 01:21:42 - agents.domain_scout - INFO - Agent confidence calculated: 0.64
+2026-01-04 01:21:42 - agents.domain_scout - INFO - Successfully discovered 3 emerging domains
+2026-01-04 01:21:42 - agents.domain_scout - INFO -   1. Neuro-Symbolic AI Integration (80.0%)
+2026-01-04 01:21:42 - agents.domain_scout - INFO -   2. Quantum Machine Learning for Drug Discovery (75.0%)
+2026-01-04 01:21:42 - agents.domain_scout - INFO -   3. AI-Assisted Synthetic Biology (70.0%)
+2026-01-04 01:21:42 - agents.domain_scout - INFO - DomainScout starting domain discovery...
+2026-01-04 01:21:44 - agents.domain_scout - ERROR - Failed to parse LLM response: Expecting value: line 1 column 1 (char 0)
+2026-01-04 01:21:45 - agents.domain_scout - INFO - Found 1 results for query: new arXiv categories 2024
+2026-01-04 01:21:46 - agents.domain_scout - INFO - Found 1 results for query: rising GitHub repos scientific 2024
+2026-01-04 01:21:46 - agents.domain_scout - INFO - Found 1 results for query: patent trends 2024 emerging technology
+2026-01-04 01:21:49 - agents.domain_scout - ERROR - Failed to parse analysis response: Expecting value: line 1 column 1 (char 0)
+2026-01-04 01:21:49 - agents.domain_scout - INFO - Creating fallback domains for testing
+2026-01-04 01:21:49 - agents.domain_scout - INFO - Agent confidence calculated: 0.64
+2026-01-04 01:21:49 - agents.domain_scout - INFO - Successfully discovered 3 emerging domains
+2026-01-04 01:21:49 - agents.domain_scout - INFO -   1. Neuro-Symbolic AI Integration (80.0%)
+2026-01-04 01:21:49 - agents.domain_scout - INFO -   2. Quantum Machine Learning for Drug Discovery (75.0%)
+2026-01-04 01:21:49 - agents.domain_scout - INFO -   3. AI-Assisted Synthetic Biology (70.0%)
+2026-01-04 01:22:16 - agents.domain_scout - INFO - DomainScout starting domain discovery...
+2026-01-04 01:22:18 - agents.domain_scout - ERROR - Failed to parse LLM response: Expecting value: line 1 column 1 (char 0)
+2026-01-04 01:22:19 - agents.domain_scout - INFO - Found 1 results for query: new arXiv categories 2024
+2026-01-04 01:22:20 - agents.domain_scout - INFO - Found 1 results for query: rising GitHub repos scientific 2024
+2026-01-04 01:22:21 - agents.domain_scout - INFO - Found 1 results for query: patent trends 2024 emerging technology
+2026-01-04 01:22:23 - agents.domain_scout - ERROR - Failed to parse analysis response: Expecting value: line 1 column 1 (char 0)
+2026-01-04 01:22:23 - agents.domain_scout - INFO - Creating fallback domains for testing
+2026-01-04 01:22:23 - agents.domain_scout - INFO - Agent confidence calculated: 0.64
+2026-01-04 01:22:23 - agents.domain_scout - INFO - Successfully discovered 3 emerging domains
+2026-01-04 01:22:23 - agents.domain_scout - INFO -   1. Neuro-Symbolic AI Integration (80.0%)
+2026-01-04 01:22:23 - agents.domain_scout - INFO -   2. Quantum Machine Learning for Drug Discovery (75.0%)
+2026-01-04 01:22:23 - agents.domain_scout - INFO -   3. AI-Assisted Synthetic Biology (70.0%)
+2026-01-04 01:25:20 - agents.domain_scout - INFO - DomainScout starting domain discovery...
+2026-01-04 01:25:22 - agents.domain_scout - ERROR - Failed to parse LLM response: Expecting value: line 1 column 1 (char 0)
+2026-01-04 01:25:23 - agents.domain_scout - INFO - Found 1 results for query: new arXiv categories 2024
+2026-01-04 01:25:24 - agents.domain_scout - INFO - Found 1 results for query: rising GitHub repos scientific 2024
+2026-01-04 01:25:25 - agents.domain_scout - INFO - Found 1 results for query: patent trends 2024 emerging technology
+2026-01-04 01:25:26 - agents.domain_scout - ERROR - Failed to parse analysis response: Expecting value: line 1 column 1 (char 0)
+2026-01-04 01:25:26 - agents.domain_scout - INFO - Creating fallback domains for testing
+2026-01-04 01:25:26 - agents.domain_scout - INFO - Agent confidence calculated: 0.64
+2026-01-04 01:25:26 - agents.domain_scout - INFO - Successfully discovered 3 emerging domains
+2026-01-04 01:25:26 - agents.domain_scout - INFO -   1. Neuro-Symbolic AI Integration (80.0%)
+2026-01-04 01:25:26 - agents.domain_scout - INFO -   2. Quantum Machine Learning for Drug Discovery (75.0%)
+2026-01-04 01:25:26 - agents.domain_scout - INFO -   3. AI-Assisted Synthetic Biology (70.0%)
+2026-01-04 01:25:26 - agents.domain_scout - INFO - DomainScout starting domain discovery...
+2026-01-04 01:25:30 - agents.domain_scout - ERROR - Failed to parse LLM response: Expecting value: line 1 column 1 (char 0)
+2026-01-04 01:25:31 - agents.domain_scout - INFO - Found 1 results for query: new arXiv categories 2024
+2026-01-04 01:25:32 - agents.domain_scout - INFO - Found 1 results for query: rising GitHub repos scientific 2024
+2026-01-04 01:25:32 - agents.domain_scout - INFO - Found 1 results for query: patent trends 2024 emerging technology
+2026-01-04 01:25:34 - agents.domain_scout - ERROR - Failed to parse analysis response: Expecting value: line 1 column 1 (char 0)
+2026-01-04 01:25:34 - agents.domain_scout - INFO - Creating fallback domains for testing
+2026-01-04 01:25:34 - agents.domain_scout - INFO - Agent confidence calculated: 0.64
+2026-01-04 01:25:34 - agents.domain_scout - INFO - Successfully discovered 3 emerging domains
+2026-01-04 01:25:34 - agents.domain_scout - INFO -   1. Neuro-Symbolic AI Integration (80.0%)
+2026-01-04 01:25:34 - agents.domain_scout - INFO -   2. Quantum Machine Learning for Drug Discovery (75.0%)
+2026-01-04 01:25:34 - agents.domain_scout - INFO -   3. AI-Assisted Synthetic Biology (70.0%)
+2026-01-04 01:26:03 - agents.domain_scout - INFO - DomainScout starting domain discovery...
+2026-01-04 01:26:05 - agents.domain_scout - ERROR - Failed to parse LLM response: Expecting value: line 1 column 1 (char 0)
+2026-01-04 01:26:06 - agents.domain_scout - INFO - Found 1 results for query: new arXiv categories 2024
+2026-01-04 01:26:06 - agents.domain_scout - INFO - Found 1 results for query: rising GitHub repos scientific 2024
+2026-01-04 01:26:07 - agents.domain_scout - INFO - Found 1 results for query: patent trends 2024 emerging technology
+2026-01-04 01:26:09 - agents.domain_scout - ERROR - Failed to parse analysis response: Expecting value: line 1 column 1 (char 0)
+2026-01-04 01:26:09 - agents.domain_scout - INFO - Creating fallback domains for testing
+2026-01-04 01:26:09 - agents.domain_scout - INFO - Agent confidence calculated: 0.64
+2026-01-04 01:26:09 - agents.domain_scout - INFO - Successfully discovered 3 emerging domains
+2026-01-04 01:26:09 - agents.domain_scout - INFO -   1. Neuro-Symbolic AI Integration (80.0%)
+2026-01-04 01:26:09 - agents.domain_scout - INFO -   2. Quantum Machine Learning for Drug Discovery (75.0%)
+2026-01-04 01:26:09 - agents.domain_scout - INFO -   3. AI-Assisted Synthetic Biology (70.0%)
+2026-01-04 01:29:17 - agents.domain_scout - INFO - DomainScout starting domain discovery...
+2026-01-04 01:29:19 - agents.domain_scout - ERROR - Failed to parse LLM response: Expecting value: line 1 column 1 (char 0)
+2026-01-04 01:29:20 - agents.domain_scout - INFO - Found 1 results for query: new arXiv categories 2024
+2026-01-04 01:29:21 - agents.domain_scout - INFO - Found 1 results for query: rising GitHub repos scientific 2024
+2026-01-04 01:29:22 - agents.domain_scout - INFO - Found 1 results for query: patent trends 2024 emerging technology
+2026-01-04 01:29:24 - agents.domain_scout - ERROR - Failed to parse analysis response: Expecting value: line 1 column 1 (char 0)
+2026-01-04 01:29:24 - agents.domain_scout - INFO - Creating fallback domains for testing
+2026-01-04 01:29:24 - agents.domain_scout - INFO - Agent confidence calculated: 0.64
+2026-01-04 01:29:24 - agents.domain_scout - INFO - Successfully discovered 3 emerging domains
+2026-01-04 01:29:24 - agents.domain_scout - INFO -   1. Neuro-Symbolic AI Integration (80.0%)
+2026-01-04 01:29:24 - agents.domain_scout - INFO -   2. Quantum Machine Learning for Drug Discovery (75.0%)
+2026-01-04 01:29:24 - agents.domain_scout - INFO -   3. AI-Assisted Synthetic Biology (70.0%)

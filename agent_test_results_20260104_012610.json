@@ -1,0 +1,525 @@
+{
+  "domain_scout": {
+    "success": true,
+    "confidence": 0.6375,
+    "should_abstain": false,
+    "data": {
+      "domains": [
+        {
+          "name": "Neuro-Symbolic AI Integration",
+          "description": "Combining neural networks with symbolic reasoning for explainable AI",
+          "evidence": [
+            "2024 arXiv papers show 40% increase",
+            "Multiple GitHub repos trending"
+          ],
+          "sources": [
+            "arXiv:2401.12345",
+            "GitHub:neuro-symbolic-toolkit"
+          ],
+          "confidence": 0.8
+        },
+        {
+          "name": "Quantum Machine Learning for Drug Discovery",
+          "description": "Applying quantum algorithms to accelerate pharmaceutical research",
+          "evidence": [
+            "Patent filings up 60% in 2024",
+            "New conference track at NeurIPS 2024"
+          ],
+          "sources": [
+            "USPTO patents",
+            "NeurIPS 2024 proceedings"
+          ],
+          "confidence": 0.75
+        },
+        {
+          "name": "AI-Assisted Synthetic Biology",
+          "description": "Using AI to design novel biological systems and organisms",
+          "evidence": [
+            "Nature special issue 2024",
+            "DARPA funding announcement"
+          ],
+          "sources": [
+            "Nature journal",
+            "DARPA press release"
+          ],
+          "confidence": 0.7
+        }
+      ],
+      "search_queries": [
+        "new arXiv categories 2024",
+        "rising GitHub repos scientific 2024",
+        "patent trends 2024 emerging technology"
+      ],
+      "sources": [
+        {
+          "title": "Emerging research in new arXiv categories 2024",
+          "url": "https://example.com/emerging-research",
+          "snippet": "Recent breakthroughs in new arXiv categories 2024 show promising results in 2024...",
+          "score": 0.9,
+          "content": "This is mock content about new arXiv categories 2024 for testing purposes."
+        },
+        {
+          "title": "Emerging research in rising GitHub repos scientific 2024",
+          "url": "https://example.com/emerging-research",
+          "snippet": "Recent breakthroughs in rising GitHub repos scientific 2024 show promising results in 2024...",
+          "score": 0.9,
+          "content": "This is mock content about rising GitHub repos scientific 2024 for testing purposes."
+        },
+        {
+          "title": "Emerging research in patent trends 2024 emerging technology",
+          "url": "https://example.com/emerging-research",
+          "snippet": "Recent breakthroughs in patent trends 2024 emerging technology show promising results in 2024...",
+          "score": 0.9,
+          "content": "This is mock content about patent trends 2024 emerging technology for testing purposes."
+        }
+      ],
+      "analysis_summary": "Found 3 emerging domains with avg confidence 63.7%",
+      "domain_count": 3,
+      "search_result_count": 3
+    },
+    "message": "Discovered 3 emerging scientific domains",
+    "agent_name": "DomainScout",
+    "agent_description": "Discover emerging scientific domains post-2024"
+  },
+  "question_generator": {
+    "success": true,
+    "confidence": 0.8,
+    "should_abstain": false,
+    "data": {
+      "questions": [
+        {
+          "question": "How can quantum computing and machine learning be combined to advance Quantum Machine Learning?",
+          "novelty_score": 8,
+          "feasibility": "medium",
+          "synthesis_required": [
+            "quantum computing",
+            "machine learning",
+            "Quantum Machine Learning"
+          ]
+        },
+        {
+          "question": "What are the most promising but unexplored applications of AI in Quantum Machine Learning?",
+          "novelty_score": 7,
+          "feasibility": "high",
+          "synthesis_required": [
+            "artificial intelligence",
+            "Quantum Machine Learning"
+          ]
+        },
+        {
+          "question": "How can interdisciplinary approaches from physics and computer science transform Quantum Machine Learning?",
+          "novelty_score": 9,
+          "feasibility": "medium",
+          "synthesis_required": [
+            "physics",
+            "computer science",
+            "Quantum Machine Learning"
+          ]
+        }
+      ],
+      "selected_question": {
+        "question": "How can quantum computing and machine learning be combined to advance Quantum Machine Learning?",
+        "novelty_score": 8,
+        "feasibility": "medium",
+        "synthesis_required": [
+          "quantum computing",
+          "machine learning",
+          "Quantum Machine Learning"
+        ]
+      },
+      "generation_metrics": {
+        "total_generated": 3,
+        "avg_novelty": 8.0
+      }
+    },
+    "message": "Generated 3 research questions",
+    "agent_name": "QuestionGenerator",
+    "agent_description": "Generate novel research questions requiring synthesis"
+  },
+  "data_alchemist": {
+    "success": true,
+    "confidence": 0.8875,
+    "should_abstain": false,
+    "data": {
+      "data_sources": [
+        {
+          "type": "research_paper",
+          "source": "arXiv",
+          "title": "Recent advances in Quantum Computing in Pharmacology",
+          "content": "This paper discusses recent developments in Quantum Computing in Pharmacology with focus on improve.",
+          "url": "https://arxiv.org/abs/2401.12345",
+          "metadata": {
+            "year": 2024,
+            "citations": 45
+          }
+        },
+        {
+          "type": "dataset",
+          "source": "GitHub",
+          "title": "Dataset for Quantum Computing in Pharmacology research",
+          "content": "Comprehensive dataset for studying how can quantum algorithms improve drug discovery?",
+          "url": "https://github.com/example/dataset",
+          "metadata": {
+            "size": "500MB",
+            "records": 10000
+          }
+        },
+        {
+          "type": "web_page",
+          "source": "Research Blog",
+          "title": "Understanding Quantum Computing in Pharmacology",
+          "content": "Blog post explaining key concepts in Quantum Computing in Pharmacology relevant to How can quantum algorithms improve drug discovery?",
+          "url": "https://example.blog",
+          "metadata": {
+            "author": "Expert Researcher"
+          }
+        }
+      ],
+      "processed_data": {
+        "text_data": [
+          {
+            "text": "This paper discusses recent developments in Quantum Computing in Pharmacology with focus on improve.",
+            "source": "arXiv",
+            "type": "research_paper"
+          },
+          {
+            "text": "Comprehensive dataset for studying how can quantum algorithms improve drug discovery?",
+            "source": "GitHub",
+            "type": "dataset"
+          },
+          {
+            "text": "Blog post explaining key concepts in Quantum Computing in Pharmacology relevant to How can quantum algorithms improve drug discovery?",
+            "source": "Research Blog",
+            "type": "web_page"
+          }
+        ],
+        "statistics": {
+          "total_sources": 3,
+          "source_types": [
+            "research_paper",
+            "web_page",
+            "dataset"
+          ]
+        }
+      },
+      "insights": [
+        "Data shows growing interest in drug",
+        "Multiple data sources provide complementary perspectives",
+        "Further analysis needed for definitive conclusions"
+      ],
+      "data_requirements": {
+        "data_types": [
+          "research_papers",
+          "datasets"
+        ],
+        "minimum_samples": 50,
+        "acceptable_sources": [
+          "arXiv",
+          "GitHub",
+          "Kaggle"
+        ]
+      },
+      "quality_metrics": {
+        "source_count": 3,
+        "quality_score": 0.7,
+        "completeness": 1.0,
+        "insight_count": 3
+      }
+    },
+    "message": "Successfully gathered 3 data sources",
+    "agent_name": "DataAlchemist",
+    "agent_description": "Find and process data from multiple sources"
+  },
+  "experiment_designer": {
+    "success": true,
+    "confidence": 0.8,
+    "should_abstain": false,
+    "data": {
+      "hypothesis": {
+        "null_hypothesis": "The use of quantum algorithms in drug discovery does not significantly improve the accuracy of identifying potential drug candidates compared to classical algorithms.",
+        "alternative_hypothesis": "The use of quantum algorithms in drug discovery significantly improves the accuracy of identifying potential drug candidates compared to classical algorithms.",
+        "variables": [
+          {
+            "name": "Quantum Algorithm Implementation",
+            "type": "independent",
+            "description": "The use of quantum algorithms, such as Quantum Approximate Optimization Algorithm (QAOA) or Quantum Circuit Learning (QCL), in the drug discovery process."
+          },
+          {
+            "name": "Drug Discovery Accuracy",
+            "type": "dependent",
+            "description": "The accuracy of identifying potential drug candidates, measured by metrics such as precision, recall, and F1-score, in the drug discovery process."
+          }
+        ],
+        "formulation_confidence": 0.9
+      },
+      "experiments": [
+        {
+          "name": "Quantum vs Classical Algorithm Comparison",
+          "type": "ab_test",
+          "procedure": "1. Select a set of known drug targets and their corresponding ligands. 2. Use quantum algorithms (e.g., Quantum Approximate Optimization Algorithm) and classical algorithms (e.g., molecular docking) to predict potential drug candidates. 3. Compare the accuracy of predictions from both approaches using metrics such as root-mean-square deviation (RMSD) and binding free energy.",
+          "complexity": "high",
+          "id": "exp_1",
+          "validation": {
+            "is_valid": true,
+            "score": 0.8,
+            "strengths": [
+              "Automatically validated for testing"
+            ],
+            "weaknesses": [],
+            "critical_issues": []
+          },
+          "sample_size": 100
+        },
+        {
+          "name": "Correlation Analysis of Quantum Algorithm Performance",
+          "type": "correlation_analysis",
+          "procedure": "1. Run quantum algorithms on a large dataset of molecular structures and their corresponding bioactivity data. 2. Calculate the correlation between the predicted bioactivity scores and the actual experimental values. 3. Compare the correlation coefficients obtained using quantum algorithms with those obtained using classical algorithms.",
+          "complexity": "medium",
+          "id": "exp_2",
+          "validation": {
+            "is_valid": true,
+            "score": 0.8,
+            "strengths": [
+              "Automatically validated for testing"
+            ],
+            "weaknesses": [],
+            "critical_issues": []
+          },
+          "sample_size": 100
+        },
+        {
+          "name": "Hypothesis Test for Quantum Algorithm Accuracy",
+          "type": "hypothesis_test",
+          "procedure": "1. Formulate a null hypothesis stating that the accuracy of quantum algorithms is no better than that of classical algorithms. 2. Collect a large dataset of molecular structures and their corresponding bioactivity data. 3. Use quantum algorithms to predict the bioactivity of the molecules and compare the results with experimental values. 4. Calculate the p-value to determine the probability of observing the results (or more extreme) assuming the null hypothesis is true.",
+          "complexity": "high",
+          "id": "exp_3",
+          "validation": {
+            "is_valid": true,
+            "score": 0.8,
+            "strengths": [
+              "Automatically validated for testing"
+            ],
+            "weaknesses": [],
+            "critical_issues": []
+          },
+          "sample_size": 100
+        }
+      ],
+      "design_metrics": {
+        "total_designed": 3,
+        "validated": 3
+      }
+    },
+    "message": "Designed 3 experiments",
+    "agent_name": "ExperimentDesigner",
+    "agent_description": "Design experiments and formulate hypotheses"
+  },
+  "critic": {
+    "success": true,
+    "confidence": 0.675,
+    "should_abstain": false,
+    "data": {
+      "methodology_critique": {
+        "issues": [
+          "Methodology critique failed"
+        ],
+        "severity": "medium"
+      },
+      "statistical_critique": {
+        "issues": [
+          "Statistical critique failed"
+        ],
+        "severity": "medium",
+        "automated_checks": [
+          {
+            "check": "p_value_significance",
+            "result": "A/B Test",
+            "issue": "p-value 0.0600 > 0.05 threshold",
+            "severity": "critical"
+          }
+        ]
+      },
+      "assumption_critique": {
+        "issues": [
+          "Assumption critique failed"
+        ]
+      },
+      "iteration_decision": {
+        "needs_iteration": true,
+        "reasons": [
+          "Critical statistical issues"
+        ],
+        "current_iteration": 1,
+        "max_iterations": 5
+      },
+      "feedback": "# \ud83d\udd04 ITERATION REQUIRED\n**Reasons:** Critical statistical issues\n\n## \ud83d\udccb METHODOLOGY ISSUES\n1. Methodology critique failed\n\n## \ud83d\udcca STATISTICAL ISSUES\n1. Statistical critique failed\n\n## \ud83c\udfaf RECOMMENDATIONS\n1. Address critical methodology issues\n2. Improve statistical power\n3. Gather additional data if needed",
+      "critique_metrics": {
+        "total_issues": 3,
+        "severity_level": 2
+      }
+    },
+    "message": "Critique complete: Needs iteration",
+    "agent_name": "Critic",
+    "agent_description": "Critique methodology and force iterations"
+  },
+  "uncertainty_agent": {
+    "success": true,
+    "confidence": 0.63575,
+    "should_abstain": false,
+    "data": {
+      "component_uncertainties": {
+        "domain": {
+          "confidence": 0.9,
+          "uncertainty": 0.09999999999999998,
+          "sources": [
+            "domain_definition"
+          ],
+          "assessment": "Domain uncertainty moderate",
+          "llm_confidence": 0.9,
+          "calibrated_confidence": 0.78,
+          "calibrated_uncertainty": 0.21999999999999997
+        },
+        "question": {
+          "confidence": 0.9,
+          "uncertainty": 0.09999999999999998,
+          "sources": [
+            "feasibility",
+            "specificity"
+          ],
+          "assessment": "Question uncertainty assessed",
+          "calibrated_confidence": 0.8200000000000001,
+          "calibrated_uncertainty": 0.17999999999999994
+        },
+        "data": {
+          "confidence": 0.55,
+          "uncertainty": 0.44999999999999996,
+          "sources": [
+            "data_quality",
+            "source_diversity"
+          ],
+          "assessment": "Data from 2 sources, 2 types",
+          "metrics": {
+            "source_count": 2,
+            "source_diversity": 2
+          },
+          "calibrated_confidence": 0.545,
+          "calibrated_uncertainty": 0.45499999999999996
+        },
+        "hypothesis": {
+          "confidence": 0.7,
+          "uncertainty": 0.30000000000000004,
+          "sources": [
+            "testability",
+            "assumptions"
+          ],
+          "assessment": "Hypothesis confidence: 70.0%",
+          "calibrated_confidence": 0.6599999999999999,
+          "calibrated_uncertainty": 0.3400000000000001
+        },
+        "experiment": {
+          "confidence": 0.65,
+          "uncertainty": 0.35,
+          "sources": [
+            "design_validity",
+            "methodology"
+          ],
+          "assessment": "1/1 valid experiments",
+          "calibrated_confidence": 0.605,
+          "calibrated_uncertainty": 0.395
+        },
+        "critique": {
+          "confidence": 0.95,
+          "uncertainty": 0.050000000000000044,
+          "sources": [
+            "critique_thoroughness"
+          ],
+          "assessment": "Critique found 2 issues",
+          "calibrated_confidence": 0.815,
+          "calibrated_uncertainty": 0.18500000000000005
+        },
+        "results": {
+          "confidence": 0.6,
+          "uncertainty": 0.4,
+          "sources": [
+            "statistical_power",
+            "effect_size"
+          ],
+          "assessment": "1 results analyzed",
+          "calibrated_confidence": 0.5900000000000001,
+          "calibrated_uncertainty": 0.4099999999999999
+        }
+      },
+      "overall_confidence": 0.63575,
+      "confidence_interval": [
+        0.5566814221703716,
+        0.7148185778296284
+      ],
+      "critical_uncertainty_sources": [
+        {
+          "component": "data",
+          "confidence": 0.545,
+          "uncertainty": 0.45499999999999996,
+          "sources": [
+            "data_quality",
+            "source_diversity"
+          ],
+          "impact": "moderate"
+        },
+        {
+          "component": "results",
+          "confidence": 0.5900000000000001,
+          "uncertainty": 0.4099999999999999,
+          "sources": [
+            "statistical_power",
+            "effect_size"
+          ],
+          "impact": "moderate"
+        }
+      ],
+      "should_abstain": false,
+      "confidence_metrics": {
+        "overall_confidence": 0.63575,
+        "confidence_interval": [
+          0.5566814221703716,
+          0.7148185778296284
+        ],
+        "interval_width": 0.1581371556592568,
+        "components_assessed": 7,
+        "components_below_threshold": 2,
+        "reliability": "medium"
+      },
+      "uncertainty_report": "# \ud83d\udcca UNCERTAINTY QUANTIFICATION REPORT\n**Overall Confidence:** 63.6%\n**95% CI:** [0.557, 0.715]\n**Decision:** \u2705 PROCEED\n**Threshold:** 60%\n\n## \ud83d\udcc8 COMPONENT CONFIDENCE BREAKDOWN\n\n### DOMAIN \u2705\n- **Confidence:** 78.0%\n- **Assessment:** Domain uncertainty moderate\n\n### QUESTION \u2705\n- **Confidence:** 82.0%\n- **Assessment:** Question uncertainty assessed\n\n### DATA \u26a0\ufe0f\n- **Confidence:** 54.5%\n- **Assessment:** Data from 2 sources, 2 types\n\n### HYPOTHESIS \u2705\n- **Confidence:** 66.0%\n- **Assessment:** Hypothesis confidence: 70.0%\n\n### EXPERIMENT \u2705\n- **Confidence:** 60.5%\n- **Assessment:** 1/1 valid experiments\n\n### CRITIQUE \u2705\n- **Confidence:** 81.5%\n- **Assessment:** Critique found 2 issues\n\n### RESULTS \u26a0\ufe0f\n- **Confidence:** 59.0%\n- **Assessment:** 1 results analyzed\n\n## \u26a0\ufe0f CRITICAL UNCERTAINTY SOURCES\n\n### 1. DATA\n- **Confidence:** 54.5%\n- **Impact:** MODERATE\n\n### 2. RESULTS\n- **Confidence:** 59.0%\n- **Impact:** MODERATE\n\n## \ud83c\udfaf RECOMMENDATIONS\n**RESEARCH PROCEEDS TO NEXT PHASE:**\n1. Proceed with paper compilation\n2. Document limitations transparently",
+      "assessment_metrics": {
+        "components_assessed": 7,
+        "confidence_threshold": 0.6,
+        "threshold_met": true
+      }
+    },
+    "message": "Overall confidence: 63.6% (PROCEED)",
+    "agent_name": "UncertaintyAgent",
+    "agent_description": "Quantify confidence and uncertainty"
+  },
+  "orchestrator": {
+    "current_iteration": 1,
+    "research_state": {
+      "domain": "Test Domain",
+      "selected_question": "Test Question",
+      "data_sources": [
+        {
+          "type": "test",
+          "source": "test"
+        }
+      ],
+      "confidence_scores": {
+        "iteration_1": 0.75
+      },
+      "agent_messages": [
+        "Test message"
+      ]
+    },
+    "confidence_scores": {
+      "iteration_1": 0.75
+    },
+    "agent_messages": []
+  }
+}

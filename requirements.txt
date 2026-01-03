@@ -1,0 +1,23 @@
+# Core dependencies
+aiohttp==3.9.3
+arxiv==1.4.8
+beautifulsoup4==4.12.3
+requests==2.31.0
+python-dotenv==1.0.1
+
+# Data processing
+numpy==1.26.4
+pandas==2.2.0
+scikit-learn==1.4.0
+
+# Visualization
+plotly==5.19.0
+
+# AI/ML frameworks (pinned to compatible versions)
+langchain==0.1.12
+langchain-community==0.0.25
+langgraph==0.0.31
+chromadb==0.4.22
+
+# Optional (install separately if needed)
+# playwright==1.41.1

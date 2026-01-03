@@ -1,0 +1,74 @@
+{
+  "domain_scout": {
+    "success": false,
+    "agent": "DomainScout",
+    "confidence": 0.0,
+    "should_abstain": true,
+    "timestamp": "2026-01-03T23:35:28.757833",
+    "data": {
+      "domains": [],
+      "sources": []
+    },
+    "message": "Domain discovery failed: Expecting value: line 1 column 1 (char 0)"
+  },
+  "question_generator": {
+    "success": false,
+    "agent": "QuestionGenerator",
+    "confidence": 0.0,
+    "should_abstain": true,
+    "timestamp": "2026-01-03T23:35:29.981490",
+    "data": {
+      "questions": []
+    },
+    "message": "Question generation failed: Expecting value: line 1 column 1 (char 0)"
+  },
+  "data_alchemist": {
+    "success": false,
+    "agent": "DataAlchemist",
+    "confidence": 0.7137866666666667,
+    "should_abstain": false,
+    "timestamp": "2026-01-03T23:35:32.380432",
+    "data": {
+      "data_sources": [],
+      "insights": []
+    },
+    "message": "Data gathering failed: Expected metadata value to be a str, int, float, bool, SparseVector, or None, got ['web_page'] which is a list in add."
+  },
+  "experiment_designer": {
+    "success": false,
+    "agent": "ExperimentDesigner",
+    "confidence": 0.5,
+    "should_abstain": true,
+    "timestamp": "2026-01-03T23:35:33.828221",
+    "data": {
+      "hypothesis": null,
+      "experiments": []
+    },
+    "message": "Experiment design failed: Expected metadata value to be a str, int, float, bool, SparseVector, or None, got [] which is a list in add."
+  },
+  "critic": {
+    "success": false,
+    "agent": "Critic",
+    "confidence": 0.0,
+    "should_abstain": true,
+    "timestamp": "2026-01-03T23:35:35.259539",
+    "data": {
+      "critique": {},
+      "needs_iteration": true,
+      "error": "'dict' object has no attribute 'metrics'"
+    },
+    "message": "Critique failed: 'dict' object has no attribute 'metrics'"
+  },
+  "uncertainty_agent": {
+    "success": false,
+    "agent": "UncertaintyAgent",
+    "confidence": 0.5996902128680361,
+    "timestamp": "2026-01-03T23:35:36.720758",
+    "data": {
+      "overall_confidence": 0.3,
+      "should_abstain": true,
+      "error": "Expected metadata value to be a str, int, float, bool, SparseVector, or None, got (0.4147444011559341, 0.6838392857142856) which is a tuple in add."
+    },
+    "message": "Uncertainty assessment failed: Expected metadata value to be a str, int, float, bool, SparseVector, or None, got (0.4147444011559341, 0.6838392857142856) which is a tuple in add."
+  }
+}
