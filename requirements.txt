@@ -4,7 +4,7 @@ arxiv==1.4.8
 beautifulsoup4==4.12.3
 requests==2.31.0
 python-dotenv==1.0.1
-
+streamlit==1.32.0
 # Data processing
 numpy==1.26.4
 pandas==2.2.0
